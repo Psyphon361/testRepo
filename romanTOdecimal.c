@@ -17,10 +17,10 @@ main()
 	for(i = 0; i < l; ++i)
 	{
 		if(romanTOdecimal(x[i]) >= romanTOdecimal(x[i + 1]))
-            dec = dec + romanTOdecimal(x[i]);
+           	    dec = dec + romanTOdecimal(x[i]);
              
-        else
-            dec = dec + (romanTOdecimal(x[i + 1]) - romanTOdecimal(x[i]));
+        	else
+           	    dec = dec + (romanTOdecimal(x[i + 1]) - romanTOdecimal(x[i]));
 	}
 	
 	printf("%d", dec);
